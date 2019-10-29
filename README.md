@@ -16,7 +16,7 @@ unkogcc unko.c
 ## 導入方法
 
 ```
-gcc -o unkogcc unkogcc.out
+gcc -o unkogcc unkogcc.c
 ```
 
 で生成されたunkogccをbinにいれるなり、binにリンク張るなり。
