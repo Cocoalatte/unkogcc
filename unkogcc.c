@@ -22,6 +22,11 @@ int main(int argc,char *argv[]){
         strcat(base,".out");
         strcat(base," ");
         strcat(base,argv[1]);
+        
+        if(strcmp(argv[2],"-lm") == 0){
+                strcat(base," -lm");
+        }
+
         printf("\x1b[32m");
         printf("\x1b[1m");
         printf("exec:%s \n",base);
