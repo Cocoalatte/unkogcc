@@ -1,5 +1,5 @@
 # unkogcc
-うんこ曰く省けよカオス
+C言語実習ビルド簡素化
 
 ## なにこれ
 Cの講義のとき、gccでコンパイルする際いちいち出力名を指定するのがめんどくさくなったからつくった
@@ -20,7 +20,7 @@ gcc -o unko.c.out unko.c
 ## 導入方法
 
 ```
-gcc -o unkogcc unkogcc.c
+gcc unkogcc.c　-o unkogcc
 ```
 
-で生成されたunkogccをbinにいれるなり、binにlnするなり。
+で生成されたunkogccをbinに入れるか、binにシンボリックを貼れば実行できるはずです。
